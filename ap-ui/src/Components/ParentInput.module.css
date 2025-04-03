@@ -1,8 +1,7 @@
 .formContainer {
-    max-width: 500px;
-    margin-top: 4%;
-    margin-left: 2%;
-    padding: 20px;
+    max-width: 600px;
+    margin: 2% auto;
+    padding: 25px;
     background-color: #f9f9f9;
     border: 1px solid #ddd;
     border-radius: 12px;
@@ -10,29 +9,32 @@
 }
 
 .formGroup {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
-.formText{
+
+.formText {
     width: 100%;
-    height: auto;
-    padding: 10px;
+    min-height: 80px;
+    padding: 12px;
     border: 1px solid #ccc;
     border-radius: 8px;
     font-size: 14px;
     box-sizing: border-box;
     transition: border-color 0.3s;
+    resize: vertical;
 }
+
 .formLabel {
     display: block;
     font-size: 16px;
     font-weight: 500;
-    margin-bottom: 5px;
+    margin-bottom: 8px;
     color: #333;
 }
 
 .formInput {
     width: 100%;
-    padding: 10px;
+    padding: 12px;
     border: 1px solid #ccc;
     border-radius: 8px;
     font-size: 14px;
@@ -40,14 +42,14 @@
     transition: border-color 0.3s;
 }
 
-.formInput:focus {
-    border-color: #4caf50;
+.formInput:focus, .formText:focus {
+    border-color: #4285f4;
     outline: none;
 }
 
 .formButton {
     width: 100%;
-    padding: 12px;
+    padding: 14px;
     background-color: #4caf50;
     color: white;
     border: none;
@@ -59,5 +61,21 @@
 }
 
 .formButton:hover {
-    background-color: #45a049;
+    background-color: #3367d6;
+}
+
+.radioLabel {
+    display: inline-block;
+    margin-right: 15px;
+    margin-left: 5px;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+select.formInput {
+    appearance: none;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 1em;
 }
