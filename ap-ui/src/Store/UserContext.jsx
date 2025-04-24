@@ -1,20 +1,42 @@
-import { createContext } from "react";
-import { useState } from "react";
-const UserContext=createContext({
-    userMode:'',
-    setMode:()=>{}
-})
-export function UserProvider({children}){
-    const[Mode,setMode]=useState('form');
-    function setUserMode(mode){
-        setMode(mode);
+import { createContext, useState } from "react";
+
+// Define the initial shape of the context
+const UserContext = createContext({
+    userMode: 'form',
+    setMode: () => {},
+    tutorialData: null, 
+    setTutorialData: () => {}, 
+    disability:'',
+    setDisabilityId:()=>{}
+});
+
+export function UserProvider({ children }) {
+    const [mode, setModeState] = useState('form');
+    const [data, setData] = useState(null); 
+    const[disability,setDisability]=useState('1');
+
+    function setUserMode(newMode) {
+        setModeState(newMode);
     }
-    const value={
-        userMode:Mode,
-        setMode:setUserMode
+
+    function setTutorialDataState(fetchedData) {
+        setData(fetchedData);
     }
-    return <UserContext value={value}>
+    function setSelectedDisability(disability){
+        setDisability(disability);
+    }
+    const contextValue = {
+        userMode: mode,
+        setMode: setUserMode,
+        tutorialData: data,
+        setTutorialData: setTutorialDataState, 
+        disability:disability,
+        setDisabilityId:setSelectedDisability
+    };
+
+    return <UserContext.Provider value={contextValue}> 
         {children}
-    </UserContext>
+    </UserContext.Provider>;
 }
-export default UserContext
+
+export default UserContext;

@@ -1,16 +1,23 @@
 import './App.css';
 import { UserProvider } from './Store/UserContext';
-import Navigation from './Components/Navigation';
-import Tutorial from './Components/Tutorial';
 import UserDisplay from './Components/UserDisplay';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+
+
+const router = createBrowserRouter([
+  {
+    path: '/*',
+    element: <UserDisplay />
+  }
+
+]);
 
 function App() {
   return (
     <UserProvider>
-      {/* <Navigation></Navigation> */}
-      <UserDisplay></UserDisplay>
+      <RouterProvider router={router} />
     </UserProvider>
   );
 }
-
 export default App;
+

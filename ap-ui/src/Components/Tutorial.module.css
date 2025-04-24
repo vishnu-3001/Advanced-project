@@ -1,23 +1,47 @@
-.heading{
-    font-size: 32px;
+.heading {
+    font-size: 28px; /* Slightly smaller */
     font-weight: bold;
+    color: #333; /* Darker color */
+    margin-bottom: 20px; /* Add space below heading */
 }
-.container{
+
+.container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 1%;
-    padding-right: 1%;
+    padding: 15px 25px; /* Adjust padding */
+    border-bottom: 1px solid #eee; /* Add a separator */
+    margin-bottom: 20px; /* Space below header */
 }
+
 .button {
-    width: 20%;
-    padding: 12px;
-    background-color: #4caf50;
+    /* Keep existing button styles or adjust as needed */
+    padding: 10px 18px; /* Slightly adjust padding */
+    background-color: #5cb85c; /* Bootstrap success green */
     color: white;
     border: none;
-    border-radius: 8px;
-    font-size: 16px;
+    border-radius: 5px; /* Softer edges */
+    font-size: 15px;
     font-weight: 500;
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: background-color 0.2s ease; /* Smoother transition */
+}
+
+.button:hover {
+    background-color: #4cae4c; /* Darker green on hover */
+}
+
+.button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.tutorialContent {
+  padding: 0 25px 25px; /* Add padding around the list of datapoints */
+}
+
+.loadingText {
+  padding: 20px 25px;
+  font-style: italic;
+  color: #777;
 }

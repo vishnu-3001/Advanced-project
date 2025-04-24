@@ -1,0 +1,434 @@
+{
+    "1": {
+      "title": "Scenario: Student with Dyslexia Facing a Problem in Class",
+      "sections": [
+        {
+          "heading": "Teacher",
+          "content": "\"Okay class, here’s a question! Please write two sentences explaining why plants need sunlight. Take your time.\""
+        },
+        {
+          "heading": "Student's Internal Thought Process",
+          "content": [
+            "Reads the question slowly and may misread words like 'plants' as 'pants' or 'plaints'.",
+            "Struggles to remember all parts of the question (plants... sunlight... why?).",
+            "Feels overloaded trying to spell, form sentences, and stay on track simultaneously."
+          ]
+        },
+        {
+          "heading": "Attempting to Answer",
+          "content": [
+            "Misspells key words, for example writing 'Plans need sunlite to make fud.'",
+            "Omits small words like 'to' and 'the'.",
+            "Jumbles sentence order, such as writing 'The grow sunlite plants by food.'",
+            "Produces messy or uneven handwriting.",
+            "May stop mid-sentence due to forgetting words or spelling anxiety."
+          ]
+        },
+        {
+          "heading": "Common Mistakes and Why They Happen",
+          "content": [
+            "Misreading parts of the question: Trouble decoding letter patterns.",
+            "Misspelled key words: Difficulty connecting sounds to letters.",
+            "Missing small linking words: These words are less noticeable to dyslexic readers.",
+            "Jumbled sentence order: Working memory overload during writing.",
+            "Messy handwriting: Struggling to balance motor control and spelling focus.",
+            "Giving up quickly: Frustration and mental fatigue."
+          ]
+        },
+        {
+          "heading": "Student’s Written Attempt",
+          "content": [
+            "Actual work: 'plans ned sunlght to mak fud. they grow becuse sun give energee.'",
+            "What they intended to write: 'Plants need sunlight to make food. They grow because the sun gives energy.'"
+          ]
+        },
+        {
+          "heading": "Support Strategies by a Good Teacher",
+          "content": [
+            "Read the question aloud again slowly and clearly.",
+            "Allow the student to dictate answers verbally if needed.",
+            "Encourage phonetic spelling without judgment ('fud' is acceptable during drafting).",
+            "Offer assistive technology like speech-to-text tools.",
+            "Provide extra time for written tasks and allow breaks to reduce frustration."
+          ]
+        },
+        {
+          "heading": "Key Takeaways",
+          "content": [
+            "The student understands the material — the difficulty lies in expressing it through writing.",
+            "Mistakes arise from decoding, spelling, memory, and organization challenges, not from lack of effort or intelligence.",
+            "Supportive strategies can make a huge difference in learning success and confidence."
+          ]
+        }
+      ]
+    },
+    "2": {
+    "title": "Scenario: Student with Dysgraphia Facing a Problem in Class",
+    "sections": [
+      {
+        "heading": "Teacher",
+        "content": "\"Everyone, please write a short paragraph describing your favorite animal and why you like it. You have 10 minutes.\""
+      },
+      {
+        "heading": "Student's Internal Thought Process",
+        "content": [
+          "Thinks clearly about which animal to choose but struggles to plan how to start writing.",
+          "Feels anxious about handwriting looking messy or illegible.",
+          "Worries about spelling, punctuation, and how to physically get the words onto paper."
+        ]
+      },
+      {
+        "heading": "Attempting to Answer",
+        "content": [
+          "Starts writing slowly with irregular letter sizes and inconsistent spacing.",
+          "Words are crammed together without clear separation between them.",
+          "Sentences may trail off mid-way as the student loses track of their original thought.",
+          "Frequent erasing or crossing out increases frustration.",
+          "Hand may become tired quickly, leading to even sloppier writing."
+        ]
+      },
+      {
+        "heading": "Common Mistakes and Why They Happen",
+        "content": [
+          "Messy handwriting: Difficulty controlling fine motor movements.",
+          "Irregular spacing and alignment: Problems with visual-motor integration.",
+          "Incomplete sentences: Fatigue or struggling to organize thoughts quickly.",
+          "Spelling mistakes: Focus is consumed by handwriting effort, leaving less mental energy for spelling correctly.",
+          "Very short responses: Trying to minimize the amount of writing to reduce frustration."
+        ]
+      },
+      {
+        "heading": "Student’s Written Attempt",
+        "content": [
+          "Actual work: 'Myfavriteanimalthetigebecausitsfastandstrog.'",
+          "What they intended to write: 'My favorite animal is the tiger because it is fast and strong.'"
+        ]
+      },
+      {
+        "heading": "Support Strategies by a Good Teacher",
+        "content": [
+          "Allow the student to type instead of handwrite assignments.",
+          "Provide graphic organizers to help structure ideas before writing.",
+          "Give extra time for written tasks and allow for breaks.",
+          "Encourage use of speech-to-text software when possible.",
+          "Focus on ideas and content first, not just handwriting neatness."
+        ]
+      },
+      {
+        "heading": "Key Takeaways",
+        "content": [
+          "The student has clear ideas but struggles to express them neatly through handwriting.",
+          "Mistakes are due to motor coordination and visual-spatial challenges, not a lack of thinking ability.",
+          "Supportive strategies can greatly reduce stress and allow the student’s creativity and knowledge to shine."
+        ]
+      }
+    ]
+  },
+  "3": {
+    "title": "Scenario: Student with Dyscalculia Facing a Problem in Class",
+    "sections": [
+      {
+        "heading": "Teacher",
+        "content": "\"If you buy 3 apples for $2 each and 2 bananas for $1 each, how much will you spend in total? Write your answer as a complete sentence.\""
+      },
+      {
+        "heading": "Student's Internal Thought Process",
+        "content": [
+          "Feels overwhelmed seeing multiple numbers and details in the question.",
+          "Has difficulty deciding which numbers go together and which operation to use.",
+          "Struggles to visualize the scenario or mentally organize the steps needed to solve it."
+        ]
+      },
+      {
+        "heading": "Attempting to Answer",
+        "content": [
+          "Might add all numbers together without understanding their meaning: 3 + 2 + 2 + 1 = 8.",
+          "May forget to multiply or miss a step entirely.",
+          "May guess an answer based on intuition rather than step-by-step calculation.",
+          "Writes an incomplete or unrelated sentence, such as \"I buy 5 fruits.\"",
+          "Confuses total cost with quantity or mixes up dollar amounts."
+        ]
+      },
+      {
+        "heading": "Common Mistakes and Why They Happen",
+        "content": [
+          "Misidentifying relevant numbers: Struggles to connect quantities with costs.",
+          "Incorrect operation: Unsure when to add, multiply, or both.",
+          "Missing steps: Difficulty organizing multiple sequential steps.",
+          "Writing incomplete answers: Focused on parts of the question rather than the whole.",
+          "Guessing due to anxiety and mental overload."
+        ]
+      },
+      {
+        "heading": "Student’s Written Attempt",
+        "content": [
+          "Actual work: 'I spend 8 dollars because 3 and 2 and 2 and 1 is 8.'",
+          "What they intended to do: '3 apples at $2 each = $6, 2 bananas at $1 each = $2. Total spent is $8.'"
+        ]
+      },
+      {
+        "heading": "Support Strategies by a Good Teacher",
+        "content": [
+          "Highlight or circle important numbers and keywords in the problem.",
+          "Break the question into smaller parts and guide the student step-by-step.",
+          "Allow use of visual aids like number charts or diagrams.",
+          "Teach simple checklists for solving word problems (e.g., find quantities first, then costs).",
+          "Provide extra time and reassurance to reduce pressure and encourage careful thinking."
+        ]
+      },
+      {
+        "heading": "Key Takeaways",
+        "content": [
+          "Students with dyscalculia may understand the real-world concept but struggle to translate it into correct mathematical operations.",
+          "Errors often come from difficulty organizing steps, not lack of effort or understanding.",
+          "Structured support and breaking problems into smaller, manageable steps can significantly help."
+        ]
+      }
+    ]
+  },
+  "4": {
+    "title": "Scenario: Student with ADHD Facing a Problem in Class",
+    "sections": [
+      {
+        "heading": "Teacher",
+        "content": "\"Please take out your math notebook, copy the three questions from the board, and solve the first one by yourself.\""
+      },
+      {
+        "heading": "Student's Internal Thought Process",
+        "content": [
+          "Quickly grabs a notebook but realizes midway it’s the wrong one.",
+          "Copies the first question hurriedly but forgets about the other two.",
+          "Feels bored halfway through copying and starts doodling in the margins.",
+          "Starts solving the problem mentally without finishing the copying task."
+        ]
+      },
+      {
+        "heading": "Attempting to Answer",
+        "content": [
+          "Might skip copying important parts of the questions.",
+          "Solves the wrong problem because they rushed ahead without fully reading.",
+          "Mixes up numbers or operations due to impulsivity.",
+          "Leaves incomplete work because attention drifts to something else (like a noise outside or a passing thought)."
+        ]
+      },
+      {
+        "heading": "Common Mistakes and Why They Happen",
+        "content": [
+          "Incomplete copying: Loses track of multi-step instructions.",
+          "Careless mistakes: Rushes due to impulsivity rather than double-checking.",
+          "Difficulty staying seated and focused: Brain seeks stimulation elsewhere.",
+          "Inconsistent task completion: Alternates between bursts of focus and distraction.",
+          "Frustration when mistakes are pointed out: Feels discouraged or impatient."
+        ]
+      },
+      {
+        "heading": "Student’s Written Attempt",
+        "content": [
+          "Actual work: Only first question copied, second half missing. Math problem solved partially but with wrong numbers.",
+          "What they intended to do: Copy all three questions carefully and solve the first one correctly."
+        ]
+      },
+      {
+        "heading": "Support Strategies by a Good Teacher",
+        "content": [
+          "Break tasks into smaller, one-step-at-a-time instructions.",
+          "Check in frequently with the student after each step.",
+          "Allow movement breaks to release energy between tasks.",
+          "Provide written instructions alongside verbal ones to reduce memory load.",
+          "Offer positive reinforcement for task completion, no matter how small."
+        ]
+      },
+      {
+        "heading": "Key Takeaways",
+        "content": [
+          "Students with ADHD often understand the content but struggle with managing focus and steps.",
+          "Mistakes arise from attention regulation challenges, not lack of intelligence or willingness.",
+          "Simple classroom accommodations and consistent support greatly improve task success and self-esteem."
+        ]
+      }
+    ]
+  },
+  "5": {
+    "title": "Scenario: Student with Auditory Processing Disorder Facing a Problem in Class",
+    "sections": [
+      {
+        "heading": "Teacher",
+        "content": "\"After you finish your reading, put your books away, take out your math folder, and start the worksheet on page 12.\" (said once, quickly)"
+      },
+      {
+        "heading": "Student's Internal Thought Process",
+        "content": [
+          "Catches part of the instruction — hears 'reading' and 'math' but not the full sequence.",
+          "Feels confused and anxious about what to do first.",
+          "Is unsure whether the teacher said to 'finish reading' or 'put the reading book away immediately'.",
+          "Does not want to ask again for fear of looking slow or different."
+        ]
+      },
+      {
+        "heading": "Attempting to Answer",
+        "content": [
+          "Puts the book away without finishing the reading task.",
+          "Takes out the wrong folder (science instead of math).",
+          "Starts flipping through pages without understanding what worksheet to start.",
+          "Looks at peers trying to guess what to do based on their actions."
+        ]
+      },
+      {
+        "heading": "Common Mistakes and Why They Happen",
+        "content": [
+          "Missing parts of spoken instructions: Difficulty processing fast or complex auditory input.",
+          "Misinterpreting steps: Uncertainty about sequencing actions.",
+          "Guessing based on peer behavior: Using visual cues to compensate for missed auditory information.",
+          "Avoiding asking for clarification: Embarrassment or fear of drawing attention."
+        ]
+      },
+      {
+        "heading": "Student’s Attempt",
+        "content": [
+          "Actual behavior: Puts away reading book immediately, pulls out the wrong folder, and sits unsure what to do next.",
+          "What they intended to do: Finish reading first, then take out the correct folder, and start the correct worksheet."
+        ]
+      },
+      {
+        "heading": "Support Strategies by a Good Teacher",
+        "content": [
+          "Speak instructions slowly and clearly, and repeat if necessary.",
+          "Provide written instructions on the board or on paper.",
+          "Use visual cues and gestures alongside verbal directions.",
+          "Encourage students to ask questions without fear of judgment.",
+          "Check for understanding by asking the student to repeat back the steps."
+        ]
+      },
+      {
+        "heading": "Key Takeaways",
+        "content": [
+          "Students with APD may miss or misinterpret oral instructions even if they have normal hearing.",
+          "Errors are due to processing difficulties, not inattentiveness or disobedience.",
+          "Simple supports like written steps and slower delivery dramatically improve understanding and performance."
+        ]
+      }
+    ]
+  },
+  "6": {
+    "title": "Scenario: Student with Nonverbal Learning Disorder (NVLD) Facing a Problem in Class",
+    "sections": [
+      {
+        "heading": "Teacher",
+        "content": "\"When you're done with the worksheet, you know what to do!\" (Teacher smiles and points toward the bookshelf without speaking clearly.)"
+      },
+      {
+        "heading": "Student's Internal Thought Process",
+        "content": [
+          "Understands the verbal part but feels confused about what exactly 'you know what to do' means.",
+          "Misses the nonverbal hint (pointing to the bookshelf).",
+          "Starts overthinking whether to sit quietly, get up, or wait for further instructions.",
+          "Feels anxious and worried about making a mistake socially in front of others."
+        ]
+      },
+      {
+        "heading": "Attempting to Answer",
+        "content": [
+          "Sits at the desk unsure of what action to take after finishing the worksheet.",
+          "Does not go to the bookshelf or return the paper as expected.",
+          "Peers start moving around, but the student waits too long, becoming more isolated.",
+          "May look frozen, hesitant, or socially withdrawn, despite knowing the academic material."
+        ]
+      },
+      {
+        "heading": "Common Mistakes and Why They Happen",
+        "content": [
+          "Missing nonverbal cues: Difficulty interpreting gestures, facial expressions, or implied expectations.",
+          "Struggling with unstructured tasks: Needs very explicit, step-by-step instructions.",
+          "Social anxiety: Worrying about doing the wrong thing in public.",
+          "Over-literal thinking: Waiting for direct verbal confirmation instead of acting on subtle hints."
+        ]
+      },
+      {
+        "heading": "Student’s Attempt",
+        "content": [
+          "Actual behavior: Finishes worksheet but remains seated, waiting for clearer instructions.",
+          "What they intended to do: Follow the expected classroom routine if it had been explicitly explained verbally."
+        ]
+      },
+      {
+        "heading": "Support Strategies by a Good Teacher",
+        "content": [
+          "Give clear, verbal, step-by-step instructions without assuming nonverbal hints are understood.",
+          "Use simple written lists or checklists for transitions and routines.",
+          "Gently check in privately if the student seems unsure rather than calling attention publicly.",
+          "Provide examples and model behaviors explicitly.",
+          "Offer reassurance that it's okay to ask clarifying questions."
+        ]
+      },
+      {
+        "heading": "Key Takeaways",
+        "content": [
+          "Students with NVLD can excel academically when verbal information is clear but struggle with reading between the lines.",
+          "Mistakes happen because of difficulty with nonverbal signals, not laziness or stubbornness.",
+          "Structured, explicit communication builds confidence and helps them participate successfully."
+        ]
+      }
+    ]
+  },
+  "7": {
+    "title": "Scenario: Student with Language Processing Disorder (LPD) Facing a Problem in Class",
+    "sections": [
+      {
+        "heading": "Teacher",
+        "content": "\"Write three sentences describing what you learned about volcanoes, and then explain how volcanoes affect the environment.\""
+      },
+      {
+        "heading": "Student's Internal Thought Process",
+        "content": [
+          "Understands the topic (volcanoes) but struggles to break down the question into manageable parts.",
+          "Feels overwhelmed trying to organize thoughts into clear sentences.",
+          "Knows some facts mentally but cannot easily find the right words to express them."
+        ]
+      },
+      {
+        "heading": "Attempting to Answer",
+        "content": [
+          "May start writing but sentences are fragmented or repetitive.",
+          "Might use vague or general words instead of specific vocabulary (e.g., 'volcanoes are big' without explaining effects).",
+          "Might leave the answer incomplete after the first few words.",
+          "Struggles with sequencing ideas logically, jumping between unrelated thoughts."
+        ]
+      },
+      {
+        "heading": "Common Mistakes and Why They Happen",
+        "content": [
+          "Difficulty retrieving specific vocabulary: Trouble finding precise words even when they know them mentally.",
+          "Incomplete answers: Getting stuck mid-sentence due to language organization issues.",
+          "Repetitive or vague language: Using broad, safe words to avoid complexity.",
+          "Mixing unrelated ideas: Problems sequencing multiple parts of a complex instruction."
+        ]
+      },
+      {
+        "heading": "Student’s Attempt",
+        "content": [
+          "Actual work: 'Volcanoes are big and hot. They do things. Lava go out. Volcanoes make ground change.'",
+          "What they intended to express: 'Volcanoes are openings in the Earth's surface that release lava, ash, and gases. They can destroy forests and homes but also create new land over time.'"
+        ]
+      },
+      {
+        "heading": "Support Strategies by a Good Teacher",
+        "content": [
+          "Break complex instructions into smaller, single-step tasks.",
+          "Provide word banks or sentence starters to help with language retrieval.",
+          "Allow extra time for organizing thoughts before writing or speaking.",
+          "Encourage verbal brainstorming first before writing tasks.",
+          "Use graphic organizers to help plan ideas clearly."
+        ]
+      },
+      {
+        "heading": "Key Takeaways",
+        "content": [
+          "Students with LPD may have strong ideas but struggle to express them clearly without support.",
+          "Mistakes stem from difficulties organizing and retrieving language, not from a lack of knowledge.",
+          "Providing scaffolds like word lists, organizers, and clear, simple instructions helps these students succeed."
+        ]
+      }
+    ]
+  }
+}
+  

@@ -1,3 +1,52 @@
+/* Add these styles to your existing ParentInput.module.css */
+
+.formHeading {
+    text-align: center;
+    color: #444;
+    margin-bottom: 25px;
+    font-weight: 500;
+}
+
+.details {
+    border: 1px solid #eee;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background-color: #fafafa;
+}
+
+.summary {
+    padding: 10px 15px;
+    cursor: pointer;
+    font-weight: 500;
+    color: #555;
+    list-style: none; /* Remove default marker */
+    position: relative;
+}
+
+.summary::-webkit-details-marker {
+  display: none; /* Hide marker in Chrome/Safari */
+}
+
+.summary::before { /* Custom marker */
+  content: '►';
+  position: absolute;
+  left: 5px;
+  font-size: 0.8em;
+  transition: transform 0.2s;
+}
+
+.details[open] > .summary::before {
+  transform: rotate(90deg);
+}
+
+
+.detailsContent {
+    padding: 15px;
+    border-top: 1px solid #eee;
+}
+
+/* Existing styles below... ensure consistency */
+
 .formContainer {
     max-width: 600px;
     margin: 2% auto;
@@ -14,7 +63,7 @@
 
 .formText {
     width: 100%;
-    min-height: 80px;
+    min-height: 60px; /* Reduced height slightly */
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 8px;
@@ -58,11 +107,18 @@
     font-weight: 500;
     cursor: pointer;
     transition: background-color 0.3s;
+    margin-top: 10px; /* Added margin */
 }
 
-.formButton:hover {
+.formButton:hover:not(:disabled) { /* Added :not(:disabled) */
     background-color: #3367d6;
 }
+
+.formButton:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
 
 .radioLabel {
     display: inline-block;
@@ -78,4 +134,14 @@ select.formInput {
     background-repeat: no-repeat;
     background-position: right 10px center;
     background-size: 1em;
+}
+
+.errorText {
+    color: #d9534f; 
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    text-align: center;
 }
