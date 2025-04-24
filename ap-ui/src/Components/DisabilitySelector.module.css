@@ -1,0 +1,42 @@
+.selectorContainer {
+    margin-bottom: 15px; /* Add some space below the selector */
+}
+
+.label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500; /* Similar to other labels */
+    color: #333;
+}
+
+.selectInput {
+    width: 100%;
+    padding: 10px 12px; /* Consistent padding */
+    border: 1px solid #ccc;
+    border-radius: 8px; /* Consistent border radius */
+    font-size: 14px;
+    box-sizing: border-box;
+    background-color: #fff; /* White background */
+    cursor: pointer;
+    transition: border-color 0.3s;
+    appearance: none; /* Remove default system appearance */
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 1em;
+}
+
+.selectInput:focus {
+    border-color: #4285f4; /* Highlight on focus */
+    outline: none;
+}
+
+.selectInput:disabled {
+  background-color: #eee; /* Indicate disabled state */
+  cursor: not-allowed;
+}
+
+.errorText {
+    color: #d9534f; /* Bootstrap danger color */
+    font-size: 0.9em;
+}

@@ -1,0 +1,13 @@
+.displayContainer{
+    display: flex;
+    align-items:flex-start;
+    flex-direction: row;
+    justify-content: center;
+}
+.navigation{
+    width:20%;
+    height:auto;
+}
+.description{
+    width:80%;
+}

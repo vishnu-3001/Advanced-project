@@ -1,24 +1,135 @@
-span{
-    font-size: 16px;
-    font-weight: bold;
-    font-style: normal;
-    font-family: 'Times New Roman', Times, serif;
-}
-p{
-    width: 80%;
-}
-textarea{
-    width: 80%;
-    height: 100px;
-}
-.tile{
+/* Add or modify styles in DataPoint.module.css */
+
+.tile {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    flex-direction: column; /* Keep main direction */
     padding: 20px;
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-    border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-bottom: 2%;
+    background-color: #fdfdfd; /* Slightly off-white */
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+    margin-bottom: 30px;
+    font-family: sans-serif; /* Cleaner default font */
+}
+
+/* Group submitted info */
+.submittedInfo {
+    width: 100%;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed #ccc; /* Dashed separator */
+}
+
+.problemSection, .answerSection {
+    margin-bottom: 10px; /* Space between problem and answer */
+}
+.problemSection:last-child, .answerSection:last-child {
+     margin-bottom: 0;
+}
+
+
+/* Container for the AI analysis part */
+.analysisContainer {
+    width: 100%;
+}
+
+.ratingSection {
+     margin-bottom: 15px;
+}
+
+.span {
+    display: block;
+    font-size: 0.85em; /* Smaller label */
+    font-weight: 600; /* Slightly bolder */
+    color: #666; /* Grey label */
+    margin-bottom: 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.problemText, .answerText, .rating, .analysisSection p {
+    font-size: 1em;
+    color: #333;
+    margin: 0;
+    padding-left: 0; /* Remove previous indent */
+    line-height: 1.5; /* Slightly adjust line height */
+}
+
+.problemText {
+    font-style: italic; /* Italicize the problem */
+    color: #111;
+}
+
+.answerText {
+     font-weight: 500; /* Slightly bolder answer */
+     color: #0056b3; /* Blue color for answer */
+}
+
+
+.rating {
+    font-weight: bold;
+    font-size: 1.1em;
+    padding: 3px 8px; /* Add some padding */
+    border-radius: 4px; /* Rounded corners */
+    display: inline-block; /* Allow background color */
+    margin-top: 2px;
+}
+
+/* Rating Colors */
+.ratingDefault {
+    background-color: #f0f0f0;
+    color: #555;
+}
+.ratingCorrect {
+    background-color: #d4edda; /* Light green */
+    color: #155724; /* Dark green */
+}
+.ratingIncorrect {
+     background-color: #f8d7da; /* Light red */
+     color: #721c24; /* Dark red */
+}
+.ratingPartial {
+     background-color: #fff3cd; /* Light yellow */
+     color: #856404; /* Dark yellow */
+}
+.ratingError {
+     background-color: #f8d7da; /* Light red for errors too */
+     color: #721c24; /* Dark red */
+     font-style: italic;
+}
+
+
+.buttonContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+    margin-top: 15px; /* More space above buttons */
+    margin-bottom: 15px;
+    padding-top: 10px;
+    border-top: 1px solid #eee; /* Separator above buttons */
+}
+
+/* Section for analysis details shown after button click */
+.analysisSection {
+    width: 100%;
+    margin-top: 15px;
+    padding: 15px; /* Add padding around analysis text */
+    background-color: #f9f9f9; /* Slightly different background */
+    border: 1px solid #eee;
+    border-radius: 5px;
+}
+
+.analysisSection .span { /* Style label within analysis section */
+    margin-bottom: 8px;
+    color: #444;
+}
+
+.analysisSection p {
+     padding-left: 0; /* No extra indent needed */
+}
+
+.errorText { /* Style for error messages */
+    color: #721c24; /* Dark red */
+    font-style: italic;
 }
