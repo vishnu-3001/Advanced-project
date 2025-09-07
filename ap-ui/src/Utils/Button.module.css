@@ -14,8 +14,8 @@ background-color:#ccc;
 pointer-events: none;
 cursor: not-allowed;
 }
-.active{
+.buttonActive{
 background-color: #ffd700;
 color: black;
-text-decoration: underline;
+/* text-decoration: underline; */
 }
