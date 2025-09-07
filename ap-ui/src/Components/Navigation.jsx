@@ -25,7 +25,7 @@ export default function Navigation(){
         if (selected) {
             sessionStorage.setItem('disability', JSON.stringify(selected.id));
         }
-        navigate(`/disability/${id}/description`)
+        navigate(`/disability/${id}/details`)
     }
     return(
         <div>

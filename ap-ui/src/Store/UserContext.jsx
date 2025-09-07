@@ -1,37 +1,42 @@
 import { createContext, useState } from "react";
 
-// Define the initial shape of the context
 const UserContext = createContext({
-    userMode: 'form',
-    setMode: () => {},
-    tutorialData: null, 
-    setTutorialData: () => {}, 
-    disability:'',
-    setDisabilityId:()=>{}
+    generatedProblem:null,
+    setGeneratedProblem:()=>{},
+    answer:null,
+    setAnswer:()=>{},
+    approach:null,
+    setApproach:()=>{},
+    userMode:null,
+    setUserMode:()=>{}
 });
 
 export function UserProvider({ children }) {
-    const [mode, setModeState] = useState('form');
-    const [data, setData] = useState(null); 
-    const[disability,setDisability]=useState('1');
-
-    function setUserMode(newMode) {
-        setModeState(newMode);
+    const[generatedProblem,setGeneratedProblem]=useState(null);
+    const [generatedAnswer,setGeneratedAnswer]=useState(null);
+    const [generatedApproach,setGeneratedApproach]=useState(null);
+    const [mode,setMode]=useState(null);
+    function setAnswer(answer){
+        setGeneratedAnswer(answer)
     }
-
-    function setTutorialDataState(fetchedData) {
-        setData(fetchedData);
+    function setApproach(approach){
+        setGeneratedApproach(approach)
     }
-    function setSelectedDisability(disability){
-        setDisability(disability);
+    function setProblem(problem){
+        setGeneratedProblem(problem)
+    }
+    function setUserMode(mode){
+        setMode(mode);
     }
     const contextValue = {
-        userMode: mode,
-        setMode: setUserMode,
-        tutorialData: data,
-        setTutorialData: setTutorialDataState, 
-        disability:disability,
-        setDisabilityId:setSelectedDisability
+        generatedProblem:generatedProblem,
+        setGeneratedProblem:setProblem,
+        answer:generatedAnswer,
+        setAnswer:setAnswer,
+        approach:generatedApproach,
+        setApproach:setApproach,
+        userMode:mode,
+        setUserMode:setUserMode
     };
 
     return <UserContext.Provider value={contextValue}> 

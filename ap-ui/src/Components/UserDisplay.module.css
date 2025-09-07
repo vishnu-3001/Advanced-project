@@ -1,13 +1,15 @@
 .displayContainer{
     display: flex;
     align-items:flex-start;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
 }
 .navigation{
-    width:20%;
+    /* width:20%; */
     height:auto;
 }
-.description{
-    width:80%;
+.routeContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
 }
