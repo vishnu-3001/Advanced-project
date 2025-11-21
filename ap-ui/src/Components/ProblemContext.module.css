@@ -1,0 +1,85 @@
+.problemContextContainer {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 16px;
+    padding: 20px 24px;
+    margin: 20px 20px 16px 20px;
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.2);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.problemHeader {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+.problemIcon {
+    font-size: 24px;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
+}
+
+.problemTitle {
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.problemContent {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 16px 20px;
+    border-radius: 12px;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #1e293b;
+    font-weight: 500;
+    margin-bottom: 12px;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.problemMeta {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.metaBadge {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 13px;
+    color: white;
+    font-weight: 600;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.metaLabel {
+    opacity: 0.9;
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    .problemContextContainer {
+        margin: 16px;
+        padding: 16px 18px;
+    }
+    
+    .problemContent {
+        font-size: 15px;
+        padding: 14px 16px;
+    }
+    
+    .metaBadge {
+        font-size: 12px;
+        padding: 5px 12px;
+    }
+}
