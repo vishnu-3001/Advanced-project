@@ -1,4 +1,4 @@
-const API_BASE = process.env.REACT_APP_API_BASE || "https://starfish-app-9fd8s.ondigitalocean.app/";
+const API_BASE = process.env.REACT_APP_API_BASE || "https://starfish-app-9fd8s.ondigitalocean.app";
 
 const ANALYSIS_PREFIX = "langgraph:analysis:";
 const ANALYSIS_INDEX_KEY = `${ANALYSIS_PREFIX}index`;
