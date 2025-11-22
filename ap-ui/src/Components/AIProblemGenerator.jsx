@@ -30,7 +30,7 @@ export default function AIProblemGenerator() {
     const generateAIProblem = async () => {
         setIsGenerating(true);
         try {
-            const response = await fetch(`https://starfish-app-9fd8s.ondigitalocean.app//api/v1/openai/generate_problem?grade_level=${studentLevel}&difficulty=${selectedDifficulty}&topic=${selectedTopic}&custom_prompt=${encodeURIComponent(customPrompt)}`, {
+            const response = await fetch(`https://starfish-app-9fd8s.ondigitalocean.app/api/v1/openai/generate_problem?grade_level=${studentLevel}&difficulty=${selectedDifficulty}&topic=${selectedTopic}&custom_prompt=${encodeURIComponent(customPrompt)}`, {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json',
