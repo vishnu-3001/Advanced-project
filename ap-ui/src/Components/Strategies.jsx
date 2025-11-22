@@ -17,7 +17,7 @@ export default function Strategies(){
     
     useEffect(()=>{
         async function fetchLegacyStrategies(currentDisability){
-            const response = await fetch("http://localhost:8000/api/v1/openai/generate_strategies", {
+            const response = await fetch("https://starfish-app-9fd8s.ondigitalocean.app//api/v1/openai/generate_strategies", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({
